@@ -81,7 +81,7 @@ body {
   text-align: var(--bs-body-text-align);
 
  background: url("https://jacksmith206.github.io/head.jpg");
-  
+  background-repeat: no-repeat;
   
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
