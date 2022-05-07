@@ -177,15 +177,37 @@
 
 
 
-<!--<p>
+
 
 <div><marquee font style="bold" scrolldelay="225"> 
 		<font size="3" face="Verdana"> 
-			<font color="#1385db">προσαρμογή οθόνης με &nbsp; ctrl &nbsp; - &nbsp; + 
+			<font color="#b611e9">
+				
+		<a>
+<button id="goFS" onclick="toggleFullScreen()" class="btn btn-outline-dark" style="color: #b611e9 " >f u l l s c r e e n</button>
+<script>
+function toggleFullScreen() {
+var doc = window.document;
+var docEl = doc.documentElement;
+var requestFullScreen = docEl.requestFullscreen || docEl.mozRequestFullScreen || docEl.webkitRequestFullScreen || docEl.msRequestFullscreen;
+var cancelFullScreen = doc.exitFullscreen || doc.mozCancelFullScreen || doc.webkitExitFullscreen || doc.msExitFullscreen;
+if(!doc.fullscreenElement && !doc.mozFullScreenElement && !doc.webkitFullscreenElement && !doc.msFullscreenElement) {
+requestFullScreen.call(docEl);
+}
+else {
+cancelFullScreen.call(doc);
+}
+}
+</script>
+    
+</a></p>			
+				
+				
+				
 
 	</marquee></div>
 
- </p>-->
+ 
 
 <div>&nbsp;</div>
 <div>&nbsp;</div>
