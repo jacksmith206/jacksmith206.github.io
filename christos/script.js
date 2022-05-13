@@ -181,7 +181,7 @@ Spacedots = new function(){
       
       if( player.boost > 0 && ( player.boost > 100 || player.boost % 3 != 0 ) ) {
         context.beginPath();
-        context.fillStyle = '#167a66';//couleur interne au stade augmenter
+        context.fillStyle = '#0066ff';//couleur interne au stade augmenter
         context.strokeStyle = 'yellow';//couleur de la bordure au stade augmenter
         context.arc(player.position.x, player.position.y, player.size*2, 0, Math.PI*2, true);
         context.fill();
