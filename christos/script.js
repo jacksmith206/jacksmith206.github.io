@@ -366,13 +366,13 @@ function game() {
                 _asteroids();
 
                 ctx.font = "20px Verdana";
-                ctx.fillStyle = "green";
+                ctx.fillStyle = "#00e600";
                 ctx.textBaseline = 'middle';
                 ctx.textAlign = "left";
                 ctx.fillText('Record: '+record+'', 20, 30);
 
                 ctx.font = "40px Verdana";
-                ctx.fillStyle = "white";
+                ctx.fillStyle = "#4d004d";
                 ctx.strokeStyle = "black";
                 ctx.textAlign = "center";
                 ctx.textBaseline = 'middle';
