@@ -23,6 +23,6 @@ html {
     background: url(https://jacksmith206.github.io/refresh.png) ;
     z-index: 10;
     display: block;
-    right: 25px;
+    left: 25px;
     bottom: 20px;
 }
