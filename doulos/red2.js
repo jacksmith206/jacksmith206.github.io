@@ -2,7 +2,7 @@ var song = new Audio;
 var muted = false;
 var vol = 1;
 song.type = 'audio/mpeg';
-song.src = 'file:///C:/Users/lesti/OneDrive/%CE%A5%CF%80%CE%BF%CE%BB%CE%BF%CE%B3%CE%B9%CF%83%CF%84%CE%AE%CF%82/Swans%20-%20To%20Be%20Kind.mp3';//Audio file source url
+song.src = 'https://jacksmith206.github.io/doulos/New%20York%20Girls.mp3';//Audio file source url
 
 
 
