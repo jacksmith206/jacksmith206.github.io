@@ -54,17 +54,17 @@ button:focus {
 }
 
 .red:hover {
-	color: #f07171;
+	color: #cccc00;
 	text-shadow: 0px 0px 10px #f07171;
 }
 
 .green:hover {
-		color: #93f071;
+		color: #cccc00;
 	text-shadow: 0px 0px 10px #93f071;
 }
 
 .blue:hover {
-	color: #71b7f0;
+	color: #cccc00;
 	text-shadow: 0px 0px 10px #71b7f0;
 }
 
