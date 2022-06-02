@@ -55,17 +55,17 @@ button:focus {
 
 .red:hover {
 	color: #cccc00;
-	text-shadow: 0px 0px 10px #f07171;
+	text-shadow: 0px 0px 10px #cccc00;
 }
 
 .green:hover {
 		color: #cccc00;
-	text-shadow: 0px 0px 10px #93f071;
+	text-shadow: 0px 0px 10px #cccc00;
 }
 
 .blue:hover {
 	color: #cccc00;
-	text-shadow: 0px 0px 10px #71b7f0;
+	text-shadow: 0px 0px 10px #cccc00;
 }
 
 .purple:hover {
