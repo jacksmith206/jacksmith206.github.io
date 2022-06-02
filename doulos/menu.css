@@ -54,7 +54,7 @@ ul li a:hover:before {
 }
 
 ul li a:hover {
-  color: #c12aef;
+  color: #333333;
   box-shadow: 0 0 15px #b611e9;
   text-shadow: 0 0 15px #b611e9;
 }
