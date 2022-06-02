@@ -7,7 +7,7 @@ var muted = false;
 var vol = 1;
 song.type = 'audio/mpeg';
 song.src = 'https://jacksmith206.github.io/doulos/Two Women.mp3'
-song.src = 'https://jacksmith206.github.io/doulos/New%20York%20Girls.mp3';
+ 'https://jacksmith206.github.io/doulos/New%20York%20Girls.mp3';
 
 
 
