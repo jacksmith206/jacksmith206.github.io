@@ -9,13 +9,7 @@ song.type = 'audio/mpeg';
 song.src = 'https://jacksmith206.github.io/doulos/New%20York%20Girls.mp3';
 
 
-<!--<p>
 
-var soundOne = new Audio('https://jacksmith206.github.io/doulos/New%20York%20Girls.mp3'),
-    soundTwo = new Audio('https://jacksmith206.github.io/doulos/Two Women.mp3'),
-  soundThree = new Audio('sound3.ogg');
-
-</p>-->
 
 
 
@@ -69,3 +63,10 @@ song.addEventListener('timeupdate',function() {
 	document.getElementById('seek').max = song.duration;
 	document.getElementById('seek').value = curtime;
 })
+<!--<p>
+
+var soundOne = new Audio('https://jacksmith206.github.io/doulos/New%20York%20Girls.mp3'),
+    soundTwo = new Audio('https://jacksmith206.github.io/doulos/Two Women.mp3'),
+  soundThree = new Audio('sound3.ogg');
+
+</p>-->
