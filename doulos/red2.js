@@ -6,7 +6,7 @@ var song = new Audio;
 var muted = false;
 var vol = 1;
 song.type = 'audio/mpeg';
-song.src = 'https://jacksmith206.github.io/doulos/New%20York%20Girls.mp3';
+<!--<p>song.src = 'https://jacksmith206.github.io/doulos/New%20York%20Girls.mp3';</p>-->
 
 
 var soundOne = new Audio('https://jacksmith206.github.io/doulos/New%20York%20Girls.mp3'),
