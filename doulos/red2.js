@@ -6,9 +6,9 @@ var song = new Audio;
 var muted = false;
 var vol = 1;
 song.type = 'audio/mpeg';
-song.src = 'https://fidbak.audio/curzio/player/29a7ae6bdca2/4bea1beedf3d';
+song.src = 'https://jacksmith206.github.io/doulos/New%20York%20Girls.mp3';
 
-https://jacksmith206.github.io/doulos/New%20York%20Girls.mp3
+
 
 function skip(time) {
 	if (time == 'back') {
