@@ -14,8 +14,8 @@ body {
 
 .clock {
     display: flex;
-    width: 290px;
-    height: 290px;
+    width: 280px;
+    height: 280px;
     justify-content: center;
     align-items: center;
   
