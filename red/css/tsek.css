@@ -24,12 +24,12 @@ input[type="checkbox"] {
 }
 
 input:checked[type="checkbox"]:nth-of-type(1) {
-  background: linear-gradient(0deg, #70a1ff, #1e90ff);
+  background: linear-gradient(0deg, #0000b3, #000066);
   box-shadow: 0 0 0 4px #353535, 0 0 0 5px #3e3e3e, inset 0 0 10px rgba(0,0,0,1);
 }
 
 input:checked[type="checkbox"]:nth-of-type(2) {
-  background: linear-gradient(0deg, #70a1ff, #1e90ff);
+  background: linear-gradient(0deg, #0000b3, #000066);
   box-shadow: 0 0 0 4px #353535, 0 0 0 5px #3e3e3e, inset 0 0 10px rgba(0,0,0,1);
 }
 
