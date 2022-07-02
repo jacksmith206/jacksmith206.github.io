@@ -50,13 +50,13 @@ body {
 }
 
 .clock .min, .mn {
-    width: 150px;
-    height: 150px;
+    width: 170px;
+    height: 170px;
 }
 
 .clock .sec, .sc {
-    width: 160px;
-    height: 160px;
+    width: 200px;
+    height: 200px;
 }
 
 .hr, .mn, .sc {
