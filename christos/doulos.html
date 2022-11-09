@@ -72,7 +72,26 @@
 </div>
 
 
+ <script type="text/javascript">
 
+        var images = new Array();
+
+        function preloadImages() {
+
+            for (i = 0; i < preloadImages.arguments.length; i++) {
+
+                images[i] = new Image();
+
+                images[i].src = preloadImages.arguments[i];
+
+            }
+
+        }
+
+        preloadImages("https://kurziokode.github.io/game.jpg");
+
+
+    </script>
 
 <script src="bootstrap.bundle.js"></script>
 <script src="script2.js"></script>
