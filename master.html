@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Chris Doulos Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+    margin: 0;
+    padding: 0px; /* This is the new line */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+        }
+
+     .iframe-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .iframe-container .iframe-wrapper {
+            width: 100%;
+            height: 50vh;
+            /* Adjust this value as needed */
+            position: relative;
+             }
+
+        .iframe-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 5px solid #1a1a1a;
+        }
+
+        @media (min-width: 400px) {
+            .iframe-container {
+                flex-direction: row;
+            }
+
+            .iframe-container .iframe-wrapper {
+                width: 50%;
+                height: 100vh;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="iframe-container">
+        <div class="iframe-wrapper">
+             <iframe src="https://kurziokode.github.io/morph/streamstudio.html"></iframe>
+        </div>
+        <div class="iframe-wrapper">
+          <iframe src="https://kurziokode.github.io/redblue.html"></iframe>
+        </div>
+    </div>
+</body>
+
+</html>
