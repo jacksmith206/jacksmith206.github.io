@@ -86,8 +86,10 @@ body {
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
 
- background: url("https://kurziokode.github.io/sch3.jpg");
-  
+ background: url("ted.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center; 
   
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
